@@ -682,6 +682,16 @@ body {
   color: hsl(238 29% 16% / var(--tw-text-opacity));
 }
 
+.text-lightGrayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(240 5% 91% / var(--tw-text-opacity));
+}
+
+.text-darkGrayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(240 6% 50% / var(--tw-text-opacity));
+}
+
 @media (min-width: 1024px) {
   .lg\:static {
     position: static;
