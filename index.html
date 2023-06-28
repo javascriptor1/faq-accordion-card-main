@@ -33,14 +33,28 @@
   </head>
   <body class="flex flex-col items-center justify-center min-h-[100vh]">
     <main
-      class="flex flex-col justify-center items-center rounded-3xl w-[320px] bg-white px-2 space-y-12 lg:space-y-0 text-[0.75rem] lg:text-base mt-[4rem] lg:flex-row lg:min-w-[925px] lg:min-h-[520px] lg:justify-between shadow-2xl"
+      class="flex flex-col justify-center items-center rounded-3xl w-[320px] bg-white px-2 lg:pl-0 space-y-12 lg:space-y-0 text-[0.75rem] lg:text-base mt-[4rem] lg:flex-row lg:min-w-[925px] lg:min-h-[520px] lg:justify-between shadow-2xl "
     >
-      <div class="w-[150px] relative lg:min-w-[35%]">
+      <div class="w-[150px] relative lg:min-w-[50%] ">
         <img
           src="images/illustration-woman-online-mobile.svg"
-          alt="illustration box desktop"
-          class="absolute -bottom-[38px] scale-150 lg:static"
+          alt="illustration box mobile"
+          class="absolute -bottom-[38px] scale-150 lg:static lg:hidden"
         />
+        <div class="relative">
+          <div class="overflow-hidden">
+            <img
+              src="images/illustration-woman-online-desktop.svg"
+              alt="illustration box desktop"
+              class="-bottom-[38px] hidden lg:block ml-[-64px]"
+            />
+          </div>
+          <img
+            src="images/illustration-box-desktop.svg"
+            alt="box"
+            class="hidden lg:block absolute top-[9rem] left-[-6rem]"
+          />
+        </div>
       </div>
 
       <div class="px-2 lg:w-[50%]">
