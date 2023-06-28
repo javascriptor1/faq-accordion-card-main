@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --Soft-violet: hsl(273, 75%, 66%);
+    --Soft-blue: hsl(240, 73%, 65%);
+  }
+  body {
+    background: linear-gradient(var(--Soft-violet), var(--Soft-blue));
+    font-family: "Kumbh Sans", sans-serif;
+  }
+}
