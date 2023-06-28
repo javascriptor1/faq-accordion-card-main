@@ -11,4 +11,8 @@
     background: linear-gradient(var(--Soft-violet), var(--Soft-blue));
     font-family: "Kumbh Sans", sans-serif;
   }
+  .active:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+  }
 }

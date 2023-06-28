@@ -432,6 +432,11 @@ body {
   font-family: "Kumbh Sans", sans-serif;
 }
 
+.active:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
